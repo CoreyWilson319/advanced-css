@@ -1,0 +1,65 @@
+.container {
+    background: whitesmoke;
+    height: 300px;
+    width: 300px;
+
+}
+
+.container:hover {
+    background: orange;
+}
+
+.containerTwo {
+    background-color: red;
+    height: 600px;
+    width: 600px;
+}
+.containerTwo:hover {
+    background-color: black;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .container {
+        height: 300px;
+        width: 300px;
+        
+    }
+    .containerTwo {
+        background-color:blue;
+        height: 500px;
+        width: 500px;
+    }
+}
+@media (max-width: 300px) {
+    .container {
+        background: Green;
+        height: 300px;
+        width: 300px;
+        
+    }
+    .containerTwo {
+        background-image: url(null);
+        background-color:Yellow;
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .container{
+        height: 250px;
+        width: 250px;
+        background-color: yellowgreen;
+    }
+    img {
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+    }
+}
